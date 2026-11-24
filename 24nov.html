@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+// **Q1.** Create an array of 10 numbers and use `push()` to add two new number
+
+//  a=[1,2,3,4,5,6,7,8,9,10];
+//  a.push(11,12);
+//  console.log(a);
+
+
+
+//  **Q2.** Create an array of 8 student names and use `pop()` to remove the last student.
+
+// a=["riya","diya","siya","poonam","pooja","priya","raman","arti"]
+// a.pop();
+// console.log(a);
+
+
+
+// **Q3.** Create an array of 5 fruits and use `unshift()` to add a fruit at the beginning.
+
+// fruits=["apple","mango","orange","graphes","banana"]
+// fruits.unshift("lemon");
+// console.log(fruits);
+
+
+
+// **Q4.** Create an array of 6 colors and use `shift()` to remove the first color.
+
+// colors=["red","blue","green","yellow","white"]
+// colors.shift();
+// console.log(colors);
+
+
+
+// Q5.** Create an array of numbers and use `map()` to create a new array containing the square of every number.
+
+// number=[2,3,4,5,6];
+// square=number.map(num=>num*num);
+// console.log(square);
+
+
+
+// *Q6.** Create an array of 15 numbers and use `filter()` to display only even numbers.
+
+// number=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+// even=number.filter(num=>num%2===0);
+// console.log(even);
+
+
+// // **Q7.** Create an array of numbers and use `reduce()` to calculate their total sum.
+
+// number=[10,20,30,40,50];
+// sum=number.reduce((total, num) => total + num, 0);
+// console.log(sum);
+
+
+// **Q8.** Create an array of student marks and use `find()` to get the first student mark greater than 80.
+
+// marks=[45,60,85,90,75];
+// result=marks.find(mark=> mark > 80);
+// console.log(result);
+
+// output:85
+
+
+// **Q9.** Create an array of names and use `includes()` to check whether "Amit" exists in the array.
+
+// names=["riya","rohan","diya","isha","Amit"];
+// console.log(names.includes("Amit"));
+
+
+// **Q10.** Create an array of numbers and use `sort()` to arrange them in ascending order.
+
+//  numbers=[5,2,9,1,7];
+// numbers.sort((a,b)=>a-b);   
+// console.log(numbers); 
+
+
+// *Q11.** Create a string containing your full name and use `toUpperCase()` and `toLowerCase()`.
+
+// name="Isha Thakur";
+// console.log(name.toUpperCase());
+// console.log(name.toLowerCase());
+
+
+// **Q12.** Create a string with extra spaces and remove them using `trim()`.
+
+// str="   Hello, World!   ";
+// console.log(str.trim());
+
+// *Q13.** Create a string containing "JavaScript Programming" and use `slice()` to extract "JavaScript".
+
+// str="JavaScript Programming";
+// console.log(str.slice(0, 10));
+
+
+// *Q14.** Create a string containing "I am learning JavaScript" and use `replace()` to replace "JavaScript" with "React".
+
+// string="I am learning JavaScript";
+// console.log(string.replace("JavaScript", "React"));
+
+
+// **Q15.** Create a string containing "HTML,CSS,JavaScript,React" and use `split()` to convert it into an array.
+
+// string= "HTML,CSS,Javascript,React";
+// console.log(string.split(","));
+
+
+// Q16.* Create an array of 10 numbers and use a for loop to print all numbers.
+
+// numbers=[1,2,3,4,5,6,7,8,9,10];
+// for(let i=0;i<numbers.length;i++){
+//     console.log(numbers[i]);
+// }
+
+
+// Q17.* Create an array of 10 numbers and use a loop to print only even numbers
+
+// numbers=[1,2,3,4,5,6,7,8,9,10];
+// for(let i=0;i<numbers.length;i++){
+//     if(numbers[i]%2===0){
+//         console.log(numbers[i]);
+//     }
+// }
+
+
+// *Q18.* Create an array of 10 numbers and use a loop to calculate the sum of all elements.
+
+// numbers=[1,2,3,4,5,6,7,8,9,10];
+// sum=0;   
+// for(let i=0;i<numbers.length;i++){
+//     sum+=numbers[i];
+// }
+// console.log(sum);
+
+
+// Q19.* Create an array of 8 student marks and use a loop to count how many students passed. Passing marks are 40 or above.
+
+// marks=[35,45,55,65,75,85,95,100];
+// passed=0;
+// for(let i=0;i<marks.length;i++){
+//     if(marks[i]>=40){
+//         passed++;
+//     }
+// }
+// console.log(passed);
+
+    // Q20.* Create an array of 10 numbers and use a loop to find the largest number without using Math.max().
+
+    // numbers=[5,2,9,1,7,3,8,4,6,10];
+    // largest=numbers[0];
+    // for(let i=1;i<numbers.length;i++){
+    //     if(numbers[i]>largest){
+    //         largest=numbers[i];
+    //     }
+    // }
+    // console.log(largest);
+
+// *Q21.* Create an array of 10 numbers. Use filter() to create a new array containing numbers greater than 50.
+
+// arr=[10,60,30,80,50,90,20,70,40,100];
+// filtered=arr.filter((num)=>num>50);
+// console.log(filtered);
+
+
+// Q22.* Create an array of student names. Use a loop to print only names whose length is greater than 5 characters
+
+// arr=["riya","diya","siya","poonam","pooja","priya","raman","arti"];
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i].length>5){
+//         console.log(arr[i]);
+//     }
+// }
+
+// Q23.* Create an array of numbers. Use a loop to count how many numbers are positive, negative, and zero.
+
+// arr=[-5,0,10,-3,7,0,-2,4];
+// positive=0;
+// negative=0;
+
+
+// *Q24.* Create an array of numbers and use reduce() to calculate the total of only even numbers.
+
+// arr=[1,2,3,4,5,6,7,8,9,10];
+// evenTotal=arr.filter(num=>num%2===0).reduce((total,num)=>total+num,0);
+// console.log(evenTotal);
+
+
+// Q25.* Create an array of words. Use a loop and string methods to count how many words start with the letter "A".
+
+// arr=["Apple","Banana","Avocado","Grapes","Apricot","Mango"];
+// count=0;
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i].startsWith("A")){
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+</script>
+
+
+</body>
+</html>

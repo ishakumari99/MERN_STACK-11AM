@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>local storage</h1>
+</head>
+<body>
+
+     <!-- Q1. Register Page —Create a registration form containing: - Full Name - Email - Password - Confirm Password - Register button ### Requirements - All fields are required. - Password and Confirm Password must match. - Store the registered user's information in **LocalStorage. - After successful registration, redirect the user to the Login page. - Display appropriate error/success messages. --- ## -->
+
+<input type="text" id="name" placeholder="Enter your name">
+<input type="email" id="email" placeholder="Enter your email">  
+<input type="password" id="password" placeholder="Enter your password">
+<input type="password" id="confirmPassword" placeholder="Confirm your password">
+<button id="registerBtn">Register</button>
+
+ Q2. Login Page —Create a login form containing: - Email - Password - Login button - Link to Register page ### Requirements - Get the registered user information from LocalStorage. - Check whether the entered email and password are correct. - If credentials are correct, save a login status in LocalStorage. - Redirect the user to home.html. - Show an error message for incorrect credentials. --- ##
+
+<input type="email" id="loginEmail" placeholder="Enter your email">
+<input type="password" id="loginPassword" placeholder="Enter your password">
+
+
+      <script>
+
+        localStorage.setItem("name","isha")
+        localStorage.setItem("email","isha@example.com")
+        localStorage.setItem("password","password123")
+        localStorage.setItem("confirmPassword","password123")
+
+localStorage.setItem("loginStatus",false)
+localStorage.setItem(" ")
+
+
+    </script>
+</body>
+</html>
